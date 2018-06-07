@@ -1,0 +1,12 @@
+{
+  "batchSize": 15,
+  "kafka": {
+    "ip": "192.168.1.100:9092",
+    "groupId": "test-consumer-group",
+    "topics": [
+      "test"
+    ]
+  },
+  "split": ",",
+  "colNum": 4
+}

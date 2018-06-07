@@ -1,0 +1,46 @@
+{
+  "writeTo": {
+    "type":"mysql",
+    "ip":"120.78.168.177",
+    "port":3306,
+    "databasename":"readcsvdata",
+    "characterEncoding":"utf8",
+    "username": "root",
+    "password": "123",
+    "tablename": "etltable",
+    "cols": [
+      {
+        "name": "time",
+        "type": "Date",
+        "colId": 1
+      }
+      ,
+      {
+        "name": "aqi",
+        "type":"Integer",
+        "colId":2
+      }
+      ,
+      {
+        "name": "pm25",
+        "type":"Integer",
+        "colId":3
+      },
+      {
+        "name": "pm10",
+        "type":"Integer",
+        "colId":4
+      },
+      {
+        "name": "co",
+        "type":"Float",
+        "colId":5
+      },
+      {
+        "name": "no2",
+        "type":"Integer",
+        "colId":6
+      }
+    ]
+  }
+}

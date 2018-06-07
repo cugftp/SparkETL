@@ -1,0 +1,68 @@
+{
+  "actions": [
+    {
+      "ID": 1,
+      "filter": {
+        "transdate": {
+          "inputDateFormat": "yyyy/MM/dd HH:mm",
+          "outputDateFormat": "yyyy-MM-dd-HH:mm"
+        }
+      }
+    }
+    ,
+    {
+      "ID": 2,
+      "filter": {
+        "min": 1,
+        "max": 100,
+        "transnumber": {
+          "mul": 2
+        }
+      }
+    }
+    ,
+    {
+      "ID": 3,
+      "filter": {
+        "min": 1,
+        "max": 80,
+        "transnumber": {
+          "mul": 2
+        }
+      }
+    }
+    ,
+    {
+      "ID": 4,
+      "filter": {
+        "min": 1,
+        "max": 100,
+        "transnumber": {
+          "mul": 2
+        }
+      }
+    }
+    ,
+    {
+      "ID": 5,
+      "filter": {
+        "min": 0.0,
+        "max": 1,
+        "transnumber": {
+          "mul": 2
+        }
+      }
+    }
+    ,
+    {
+      "ID": 6,
+      "filter": {
+        "min": 1,
+        "max": 100,
+        "transnumber": {
+          "mul": 2
+        }
+      }
+    }
+  ]
+}

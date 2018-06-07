@@ -1,0 +1,41 @@
+{
+    "type": "mysql",
+    "ip":"120.78.168.177",
+    "port":"3306",
+    "database":"readcsvdata",
+    "user": "root",
+    "password": "123",
+    "table": "copy1711",
+    "cols":
+    [
+        {
+            "id":1,
+            "col":"time"
+        }
+        ,
+        {
+            "id": 2,
+            "col": "aqi"
+        }
+        ,
+        {
+            "id":3,
+            "col":"pm25"
+        },
+
+        {
+            "id":4,
+            "col":"pm10"
+        },
+
+        {
+            "id":5,
+            "col":"co"
+        },
+
+        {
+            "id":6,
+            "col":"no2"
+        }
+    ]
+}
